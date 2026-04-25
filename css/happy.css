@@ -1,0 +1,374 @@
+/* common css */
+p {
+    color: #565973;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* common css */
+/* Bannar css start */
+.bannar-list {
+    display: flex;
+    gap: 12px;
+}
+
+.bannar-list li {
+    font-size: 14px;
+    font-weight: 400;
+    color: #9397AD;
+}
+
+.bannar-list li span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #6366F1;
+}
+
+.bannar {
+    padding: 40px 0;
+}
+
+li {
+    list-style: none;
+}
+
+.bannar-text h1 {
+    font-size: 72px;
+    font-weight: 800;
+    color: #0B0F19;
+    line-height: 130%;
+    width: 634px;
+}
+
+.bannar-text p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #565973;
+    line-height: 160%;
+    margin-bottom: 40px;
+    width: 526px;
+}
+
+.bannar-text button {
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #6366F1;
+    padding: 13px 32px;
+    border-radius: 8px;
+    border: none;
+}
+
+.bannar-border {
+    border: 2px solid #E2E5F1;
+    margin-top: 96px;
+}
+
+/* Bannar css end*/
+/* What We Offer start */
+.What-we-offer {
+    margin: 96px 0px;
+    position: relative;
+}
+
+.heading {
+    font-size: 40px;
+    font-weight: 800;
+    color: #0B0F19;
+    margin-bottom: 48px;
+}
+
+.we-offer {
+    width: 300px;
+
+}
+
+.we-offer h3 {
+    font-size: 20px;
+    font-weight: 800;
+    color: #0B0F19;
+    margin-top: 16px;
+    margin-bottom: 12px;
+}
+
+.we-offer-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* What We Offer end */
+/* How We Work? start */
+.step-number {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: #F3F6FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 800;
+    color: #0B0F19;
+    padding: 10px;
+    position: relative;
+    z-index: 2;
+}
+
+.steps {
+    width: 240px;
+}
+
+.steps h3 {
+    font-size: 24px;
+    font-weight: 800;
+    color: #0B0F19;
+    margin-top: 28px;
+    margin-bottom: 16px;
+    line-height: 140%;
+}
+.steps p{
+    line-height: 160%;
+}
+
+.step-number span {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line-wrapper {
+    position: relative;
+}
+
+.line {
+    position: absolute;
+    top: 28px;
+    left: 0;
+    width: 80%;
+    border: 1px solid #E2E5F1;
+}
+
+/* How We Work? end */
+/* Trusted by Leading Companies start */
+.logo-section {
+    margin: 112px 0px;
+}
+
+.logo {
+    width: 196px;
+    border: 1px solid #E2E5F1;
+    padding: 35px 38px;
+    border-radius: 8px;
+    transition: 0.3s linear;
+}
+.logo:hover {
+  box-shadow: 0px 20px 50px rgba(0,0,0,0.253);
+  cursor: pointer;
+}
+
+.logo-section h2 {
+    font-size: 32px;
+    font-weight: 800;
+    color: #0B0F19;
+    text-align: center;
+    margin-bottom: 32px;
+
+}
+
+/* Trusted by Leading Companies end */
+/* We personalize start */
+
+.We-personalize-text h2 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #0B0F19;
+    line-height: 130%;
+}
+
+.We-personalize-text button {
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #6366F1;
+    padding: 13px 32px;
+    border-radius: 8px;
+    border: none;
+}
+
+/* We personalize end */
+/* Product development */
+#product-development {
+    margin: 112px 0px;
+}
+
+.product-text h2 {
+    line-height: 130%;
+}
+
+.product-text {
+    width: 564px;
+
+}
+
+.product-text ul {
+    line-height: 12px;
+}
+.product-text ul li{
+   font-size: 16px;
+   font-weight: 400;
+   color: #565973;
+}
+
+/*Product development  */
+/* Ready to get started? start */
+#Get-started {
+    background-color: #0B0F19;
+    padding: 112px 0px;
+    text-align: center;
+}
+
+.get-started-text h2 {
+    color: white;
+}
+
+.get-started-text p {
+    color: white;
+    opacity: 70%;
+    font-size: 24px;
+}
+
+.get-started-text button {
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #6366F1;
+    padding: 13px 32px;
+    border-radius: 8px;
+    border: none;
+}
+
+/* Ready to get started? end */
+/* Error 404 start */
+#error-part{
+    margin: 112px 0px;
+}
+.error-text h2{
+    font-size: 80px;
+    font-weight: 800;
+    color: #0B0F19;
+}
+.error-text{
+    width: 526px;
+}
+.error-text p{
+  margin-top: 24px;
+  margin-bottom: 56px;
+}
+.error-text button {
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #6366F1;
+    padding: 13px 32px;
+    border-radius: 8px;
+    border: none;
+}
+/* Error 404 end */
+/* navber */
+.navbar-brand img {
+    height: 44px;
+}
+
+.box {
+    width: 40px;
+    height: 20px;
+    background: #6a70e2;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.miniBox {
+    width: 16px;
+    height: 16px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+
+.custome-btn1 {
+    background-color: #5d5dfa !important;
+    color: white !important;
+    border-radius: 4px;
+    border: none;
+    font-weight: 500;
+    padding: 8px 24px;
+    transition: all 0.2s ease;
+}
+
+.custome-btn1:hover {
+    background-color: #4b4bca;
+    color: white !important;
+    transform: translateY(-1px);
+}
+/* footer */
+/* footer */
+.footer-section {
+    background-color: #ffffff;
+    font-size: 0.9rem;
+}
+
+.footer-section h6 {
+    color: #131022;
+}
+
+.footer-links li {
+    margin-bottom: 12px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #565973;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: #6366f1;
+    padding-left: 5px;
+}
+
+
+.newsletter-box .input-group {
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 350px;
+}
+
+.newsletter-box input {
+    height: 45px;
+    font-size: 0.85rem;
+}
+
+.newsletter-box .btn-primary {
+    background-color: #6366f1;
+    border: none;
+}
+
+
+.footer-section.border-top, 
+.footer-section .border-top {
+    border-color: #e2e5f1 !important;
+}
+
+@media (max-width: 768px) {
+    .newsletter-box {
+        max-width: 100%;
+    }
+}
