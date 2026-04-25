@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid View</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+
+    <!-- ═══════════════════════════════════════
+     Nav SECTION
+═══════════════════════════════════════ -->
+
+    <nav class="navbar navbar-expand-lg bg-light mb-0">
+        <div class="container">
+            <a class="navbar-brand" href="./ServiceTanver.html">
+                <img src="./images/solid.svg" class="custome-imsge" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#Chapri">A guide on how to be the ultimate chapri.</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Mujra</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Tik Tok</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Block</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">contact</a>
+                    </li>
+                </ul>
+
+                <div class="d-flex align-items-center">
+                    <div class="textandBox d-flex align-items-center gap-2 me-4">
+                        <p class="mb-0 text-dark">light</p>
+                        <div class="box">
+                            <div class="miniBox">
+                            </div>
+                        </div>
+                        <p class="mb-0">dark</p>
+                    </div>
+                    <button class="btn px-4 py-2 custome-btn1">Contact us</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ═══════════════════════════════════════
+     MAIN SECTION
+═══════════════════════════════════════ -->
+    <section class="container">
+        <div class="page-wrapper">
+
+            <!-- Breadcrumb -->
+            <div class="breadcrumb-bar">
+                <a href="#">Homepage</a>
+                <span class="sep">›</span>
+                <span class="curr">Grid View</span>
+            </div>
+
+            <!-- Title + Filter Tabs -->
+            <div class="title-filter">
+                <h1 class="pg-title">Grid View</h1>
+                <nav class="filter-tabs" aria-label="Portfolio categories">
+                    <button class="tab active">All Works</button>
+                    <button class="tab">Web Design</button>
+                    <button class="tab">Graphic Design</button>
+                    <button class="tab">Branding</button>
+                    <button class="tab">UI / UX</button>
+                    <button class="tab">Motion Design</button>
+                </nav>
+            </div>
+
+            <!-- ── Portfolio Grid ── -->
+            <div class="portfolio-grid">
+
+                <!-- Card 1 · Astronaut & Neon -->
+                <div class="p-card">
+                    <a href="#" class="p-card-img">
+                        <img src="./images/cover.png" alt="Astronaut & Flashing Neon Lights" loading="eager" />
+                    </a>
+                    <div class="p-card-body">
+                        <a href="#" class="p-card-title">Astronaut &amp; Flashing Neon Lights</a>
+                    </div>
+                </div>
+
+                <!-- Card 2 · Sunglasses Human Head (accent) -->
+                <div class="p-card">
+                    <a href="#" class="p-card-img">
+                        <img src="./images/cover (1).png" alt="Scene of Sunglasses & Headphone on Human Head"
+                            loading="eager" />
+                    </a>
+                    <div class="p-card-body">
+                        <a href="#" class="p-card-title accent">Scene of Sunglasses &amp; Headphone on Human Head</a>
+                        <div class="p-card-tags">NFT &nbsp;·&nbsp; Graphic Design &nbsp;·&nbsp; Art &nbsp;·&nbsp;
+                            Identity
+                            &nbsp;·&nbsp; Motion Design</div>
+                    </div>
+                </div>
+
+                <!-- Card 3 · Pop Art Sculpture -->
+                <div class="p-card">
+                    <a href="#" class="p-card-img">
+                        <img src="./images/cover (1).png" alt="Plaster Antique Sculpture in a Pop Art Style"
+                            loading="lazy" />
+                    </a>
+                    <div class="p-card-body">
+                        <a href="#" class="p-card-title">Plaster Antique Sculpture in a Pop Art Style</a>
+                    </div>
+                </div>
+
+                <!-- Card 4 · Big Blue Whale -->
+                <div class="p-card">
+                    <a href="#" class="p-card-img">
+                        <img src="./images/cover.png" alt="Big Blue Whale Shape" loading="lazy" />
+                    </a>
+                    <div class="p-card-body">
+                        <a href="#" class="p-card-title">Big Blue Whale Shape</a>
+                    </div>
+                </div>
+
+                <!-- Card 5 · 3D Shape Illustration -->
+                <div class="p-card">
+                    <a href="#" class="p-card-img">
+                        <img src="./images/cover.png" alt="3D Shape Illustration" loading="lazy" />
+                    </a>
+                    <div class="p-card-body">
+                        <a href="#" class="p-card-title">3D Shape Illustration</a>
+                    </div>
+                </div>
+
+                <!-- Card 6 · Mannequin Hands Holding Phone -->
+                <div class="p-card">
+                    <a href="#" class="p-card-img">
+                        <img src="./images/cover (1).png" alt="Mannequin Hands Holding Phone" loading="lazy" />
+                    </a>
+                    <div class="p-card-body">
+                        <a href="#" class="p-card-title">Mannequin Hands Holding Phone</a>
+                    </div>
+                </div>
+
+            </div>
+            <!-- /portfolio-grid -->
+
+            <!-- ── Pagination ── -->
+            <div class="pag-wrap">
+                <ul class="pag-list">
+                    <li class="active"><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li>
+                        <a href="#" aria-label="Next page">
+                            <svg width="6" height="10" viewBox="0 0 6 10" fill="none">
+                                <path d="M1.5 1.5 L4.5 5 L1.5 8.5" stroke="#9ca3af" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- ── CTA Banner ── -->
+            <div class="cta-section">
+                <div class="cta-box">
+
+                    <!-- Left: Text -->
+                    <div class="cta-text">
+                        <p class="cta-eyebrow">Ready to get started?</p>
+                        <h2 class="cta-headline">
+                            Take Your <span class="hl">Business</span><br>
+                            to the Next Level
+                        </h2>
+                        <a href="#" class="cta-btn">Work with us</a>
+                    </div>
+
+                    <!-- Right: CSS Illustration -->
+                    <div class="cta-illus" aria-hidden="true">
+
+                        <!-- Floating teal card (top-right) -->
+                        <div class="float-card-1">
+                            <div class="fc-photo"></div>
+                            <div class="fc-bar w80"></div>
+                            <div class="fc-bar w70"></div>
+                            <div class="fc-bar w50"></div>
+                        </div>
+
+                        <!-- Main monitor -->
+                        <div class="mon-screen">
+                            <div class="mon-bar mon-bar-1"></div>
+                            <div class="mon-bar mon-bar-2"></div>
+                            <div class="mon-bar mon-bar-3"></div>
+                            <div class="mon-img-box"></div>
+                            <div class="mon-bar mon-bar-4"></div>
+                        </div>
+                        <div class="mon-stand"></div>
+                        <div class="mon-base"></div>
+
+                        <!-- Floating purple card (left) -->
+                        <div class="float-card-2">
+                            <div class="fcs-line"></div>
+                            <div class="fcs-line short"></div>
+                            <div class="fcs-line"></div>
+                        </div>
+
+                        <!-- Floating dot -->
+                        <div class="float-dot">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="#4f46e5" stroke-width="2.2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                <polyline points="22,6 12,13 2,6" />
+                            </svg>
+                        </div>
+
+                    </div>
+                    <!-- /cta-illus -->
+
+                </div>
+            </div>
+            <!-- /cta-section -->
+
+        </div>
+    </section>
+    <!-- /page-wrapper -->
+
+
+    <!-- ═══════════════════════════════════════
+     FOOTER
+═══════════════════════════════════════ -->
+    <footer class="footer-section py-5 border-top">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-brand mb-4">
+                        <img src="./images/solid.svg" alt="Silicon" width="120" class="mb-3">
+                        <p class="text-muted small pe-lg-5">
+                            Proin ipsum pharetra, senectus eget scelerisque varius pretium platea velit. Lacus, eget eu
+                            vitae nullam proin turpis etiam mi sit. Non feugiat feugiat egestas nulla nec.
+                        </p>
+                    </div>
+
+                    <div class="newsletter-box mt-4">
+                        <h6 class="fw-bold mb-3">Subscribe to our newsletter</h6>
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control bg-light border-0 px-3" placeholder="Your Email">
+                            <button class="btn btn-primary px-4" type="button">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-6 offset-lg-1">
+                    <h6 class="fw-bold mb-4">Quick Links</h6>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                    <ul class="list-unstyled footer-links mt-4">
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-6">
+                    <h6 class="fw-bold mb-4">Follow Us</h6>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Linkedin</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="fw-bold mb-4">Contact Us</h6>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="mailto:example@gmail.com" class="text-primary fw-bold">example@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-top mt-5 pt-4 text-muted small">
+                <p>© 2025 All rights reserved. Silicon Template</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        /* Filter tab interaction */
+        document.querySelectorAll('.filter-tabs .tab').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.filter-tabs .tab').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+            });
+        });
+    </script>
+
+</body>
+
+</html>
