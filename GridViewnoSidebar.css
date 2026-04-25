@@ -33,3 +33,136 @@
 .card:hover .card-title {
     color: #007F5F;
 }
+
+/* footer */
+
+
+.contact-section {
+    background-color: #F9Faff;
+    min-height: 80vh;
+    padding: 100px 0;
+}
+
+
+.lets-talk-text {
+    font-size: 72px; 
+    font-weight: 800;
+    color: #6366f1; 
+    letter-spacing: -2px;
+}
+
+
+.form-wrapper {
+    border-radius: 20px;
+}
+
+.custom-input {
+    border: 1px solid #E2E8F0;
+    padding: 12px 15px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.custom-input::placeholder {
+    color: #94A3B8;
+}
+
+
+.custom-input {
+    border: 1px solid #E2E8F0;
+    padding: 12px 15px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.custom-input::placeholder {
+    color: #94A3B8;
+}
+
+
+.btn-contact {
+    
+    background-color: #6366f1 !important; 
+  
+    color: #ffffff !important; 
+    padding: 12px 30px;
+    border-radius: 10px;
+    font-weight: 600;
+    border: none;
+    display: inline-block;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btn-contact:hover {
+    background-color: #4f46e5 !important;
+    color: #ffffff !important;
+    box-shadow: 0 5px 15px rgba(99, 102, 241, 0.4);
+}
+
+
+.breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+    font-size: 12px;
+    color: #94A3B8;
+}
+
+
+.breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+    font-size: 12px;
+    color: #94A3B8;
+}
+/* footer */
+.footer-section {
+    background-color: #ffffff;
+    font-size: 0.9rem;
+}
+
+.footer-section h6 {
+    color: #131022;
+}
+
+.footer-links li {
+    margin-bottom: 12px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #565973;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: #6366f1;
+    padding-left: 5px;
+}
+
+
+.newsletter-box .input-group {
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 350px;
+}
+
+.newsletter-box input {
+    height: 45px;
+    font-size: 0.85rem;
+}
+
+.newsletter-box .btn-primary {
+    background-color: #6366f1;
+    border: none;
+}
+
+
+.footer-section.border-top, 
+.footer-section .border-top {
+    border-color: #e2e5f1 !important;
+}
+
+@media (max-width: 768px) {
+    .newsletter-box {
+        max-width: 100%;
+    }
+}
